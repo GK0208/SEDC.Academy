@@ -1,0 +1,23 @@
+﻿@model ProjectViewModel
+@{
+    ViewBag.Title = "AddProject";
+}
+
+<h1>@ViewBag.Title</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(x => x.Id)
+    @Html.HiddenFor(x=>x.StudentId)
+    @Html.LabelFor(x => x.Title)
+    @Html.TextBoxFor(x => x.Title)
+    <br />
+    @Html.LabelFor(x => x.EstimatedTime)
+    @Html.TextBoxFor(x => x.EstimatedTime)
+    <br />
+    @Html.LabelFor(x => x.TimeSpent)
+    @Html.TextBoxFor(x => x.TimeSpent)
+    <br />
+ 
+    <button class="btn btn-primary" type="submit">Add Project</button>
+}

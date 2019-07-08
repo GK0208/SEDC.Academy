@@ -1,0 +1,24 @@
+﻿@model InsertStudentViewModel
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+<h1>@ViewBag.Title</h1>
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(x=>x.Id)
+    @Html.LabelFor(x => x.FirstName) 
+    @Html.TextBoxFor(x => x.FirstName)
+    <br />
+    @Html.LabelFor(x => x.LastName)
+    @Html.TextBoxFor(x => x.LastName)
+    <br/>
+    @Html.LabelFor(x => x.Age)
+    @Html.TextBoxFor(x=>x.Age)
+    <br />
+    @Html.LabelFor(x=>x.Academy)
+    @Html.DropDownListFor(x => x.Academy, Html.GetEnumSelectList(Model.Academy.GetType()))
+    <br/>
+    <button class="btn btn-primary" type="submit">Add User</button>
+}
+

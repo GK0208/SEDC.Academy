@@ -1,0 +1,26 @@
+﻿@model InsertStudentViewModel
+
+@{
+    ViewBag.Title="Details";
+}
+
+<h1>@ViewBag.Title</h1>
+
+@using (Html.BeginForm())
+{
+
+<h3>Update Student :</h3>  <br />
+@Html.HiddenFor(x=>x.Id)
+@Html.LabelFor(x => x.FirstName)
+@Html.EditorFor(x => x.FirstName)  <br />
+@Html.LabelFor(x => x.LastName)
+@Html.EditorFor(x => x.LastName); <br />
+@Html.LabelFor(x => x.Age)
+@Html.EditorFor(x => x.Age); <br />
+@Html.LabelFor(x => x.Academy)
+@Html.DropDownListFor(x => x.Academy, new SelectList(Enum.GetValues(typeof(Academy))))  <br />
+
+<button type="button">@Html.ActionLink("Add Project","AddProject","Student",Model)</button>
+<button type="submit">Update Student</button>
+
+}

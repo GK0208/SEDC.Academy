@@ -1,0 +1,46 @@
+﻿@model StudentViewModel
+
+@{
+    ViewBag.Title="Student";
+}
+
+<h1>@ViewBag.Title </h1>
+
+<h2>Details :</h2>
+
+<table style="border:2px solid black; width:100%; margin-bottom:10px; padding:5px">
+    <thead>
+        <tr style="text-align:center;font-size:25px; background-color:lightgrey">
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Age</td>
+            <td>Academy</td>
+            <td>Projects</td>
+            <td>Details</td>
+        </tr>     
+    </thead>
+    <tbody>
+        @foreach(var student in Model.Students)
+        {
+        <tr style="text-align:center; border:2px solid black; font-size:20px">
+            <td>@student.FirstName</td>
+            <td>@student.LastName</td>
+            <td>@student.Age</td>
+            <td>@student.Academy</td>
+            <td>
+                <ul>
+                    @foreach(var project in student.Projects)
+            {
+                    <li>@project.Title</li>
+            }
+                </ul>
+            </td>
+            <td> <button class="btn btn-primary">@Html.ActionLink("Details","Details","Student",student)</button></td>
+        </tr>
+        }
+
+    </tbody>
+</table>
+
+
+

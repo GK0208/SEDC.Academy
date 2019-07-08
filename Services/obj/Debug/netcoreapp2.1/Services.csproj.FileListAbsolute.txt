@@ -1,0 +1,14 @@
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\obj\Debug\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\obj\Debug\netcoreapp2.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\obj\Debug\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\bin\Debug\netcoreapp2.1\Services.deps.json
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\bin\Debug\netcoreapp2.1\Services.dll
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\bin\Debug\netcoreapp2.1\DataAccess.dll
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\bin\Debug\netcoreapp2.1\Domain.dll
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\bin\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\bin\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\obj\Debug\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\bin\Debug\netcoreapp2.1\Services.pdb
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\obj\Debug\netcoreapp2.1\Services.dll
+C:\Users\Goce.Kabov\source\repos\SEDC.ACADEMY.Domain\Services\obj\Debug\netcoreapp2.1\Services.pdb
